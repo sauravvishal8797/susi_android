@@ -40,6 +40,9 @@ class ForgotPasswordActivity : AppCompatActivity (), IForgotPasswordView {
                 input_url.visibility = View.GONE
             }
         }
+        if(forgot_email.hasFocus()){
+            
+        }
 
         if (supportActionBar != null) {
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
